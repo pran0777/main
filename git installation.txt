@@ -1,0 +1,16 @@
+sudo apt install git
+git init 
+git status
+git add .
+git commit -m "first commit"
+git config --global user.email "pranavkharat31@gmail.com"
+git config --global user.name "pran0777"
+git config user.name
+pran0777
+git config user.email
+pranavkharat31@gmail.com
+git commit -m "first commit"
+git remote add origin https://github.com/pran0777/gittter.git
+git push -u origin master
+(Username):
+(Password):
