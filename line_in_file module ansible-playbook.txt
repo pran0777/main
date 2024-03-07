@@ -1,0 +1,11 @@
+---
+- name: Add/Update a line in a file
+  hosts: your_servers
+  become: yes
+
+  tasks:
+    - name: Ensure a line is present in a file
+      lineinfile:
+        path: /path/to/your/file.txt
+        line: 'Your desired line goes here'
+        state: present
